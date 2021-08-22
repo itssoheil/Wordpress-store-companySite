@@ -1,0 +1,26 @@
+[Aug 17 20:48:15] 
+[Aug 17 20:48:15] ==DUPLICATOR INSTALLER BOOTSTRAP v1.3.24==
+[Aug 17 20:48:15] ----------------------------------------------------
+[Aug 17 20:48:15] Installer bootstrap start
+[Aug 17 20:48:15] Using archive C:/wamp64/www/company-site/20181014_flatsome_df9dcc92602888b56722_20200127075623_archive.zip
+[Aug 17 20:48:15] Manual extract found so not going to extract dup-installer dir
+[Aug 17 20:48:15] ERROR: Didn't need to extract the installer.
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/assets to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/classes to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/ctrls to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/favicon to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/lib to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/views to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-archive__df9dcc9-27075623.txt to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-database__df9dcc9-27075623.sql to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-installer-csrf__df9dcc9-27075623.txt to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-installer-log__df9dcc9-27075623.txt to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-installer-notices__df9dcc9-27075623.json to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-orig-htaccess__df9dcc9-27075623.txt to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-orig-wp-config__df9dcc9-27075623.txt to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/dup-scan__df9dcc9-27075623.json to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/index.php to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/installer-state.txt to 0<br/>
+[Aug 17 20:48:15] Set permissions of C:/wamp64/www/company-site/dup-installer/main.installer.php to 0<br/>
+[Aug 17 20:48:15] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://localhost/company-site/dup-installer/main.installer.php

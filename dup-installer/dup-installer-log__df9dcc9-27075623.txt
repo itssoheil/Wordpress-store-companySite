@@ -1,0 +1,721 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:48:20
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.11                                |7.2.14
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-01-27 07:56:23
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.24
+DB__________________: 10.2.28
+DB TABLES___________: 41
+DB ROWS_____________: 5,060
+DB FILE SIZE________: 3.8MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.14 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.37 (Win64) PHP/7.2.14
+DOC ROOT____________: "C:/wamp64/www/company-site"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/company-site/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20181014_flatsome_df9dcc92602888b56722_20200127075623_archive.zip"
+SIZE________________: 1.48MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 116
+    [filename] => C:\wamp64\www\company-site\20181014_flatsome_df9dcc92602888b56722_20200127075623_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2021-08-17 20:48:20
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:48:20 - RUNTIME: 0.1894 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:48:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 10.2.28
+FILE SIZE:	dup-database__df9dcc9-27075623.sql (1.66MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/company-site/dup-installer/dup-installer-data__df9dcc9-27075623.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.24] is less than the build version [10.2.28].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	41
+RENAMED TABLES:	0
+QUERIES RAN:	5247
+
+wp_commentmeta: (0)
+wp_comments: (231)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_nf_objectmeta: (186)
+wp_nf_objects: (11)
+wp_nf_relationships: (3)
+wp_ninja_forms_fav_fields: (17)
+wp_ninja_forms_fields: (16)
+wp_options: (328)
+wp_postmeta: (3114)
+wp_posts: (444)
+wp_social_users: (0)
+wp_taxonomymeta: (8)
+wp_term_relationships: (367)
+wp_term_taxonomy: (71)
+wp_termmeta: (85)
+wp_terms: (71)
+wp_usermeta: (33)
+wp_users: (1)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (57)
+wp_wc_tax_rate_classes: (4)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_ir: (1)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (9)
+wp_woocommerce_order_items: (1)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yith_wcwl: (0)
+wp_yith_wcwl_lists: (1)
+Removed '143' cache/transient rows
+
+INSERT DATA RUNTIME: 3.1954 sec.
+STEP-2 COMPLETE @ 08:48:42 - RUNTIME: 3.2155 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:49:10
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "شرکت سهیل رحمانی"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/multacco/marketifa.ir/flatsome/"
+path_new______________: "C:/wamp64/www/company-site/"
+siteurl_______________: "http://localhost/company-site"
+url_old_______________: "http://marketifa.ir/flatsome"
+url_new_______________: "http://localhost/company-site"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "wordpress_company"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: "soheil_company_site_test"
+wp_mail_______________: "iamsoheilrahmani@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:   231][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf_objectmeta"________________________________[ROWS:   186][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_nf_objects"___________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_nf_relationships"_____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_ninja_forms_fav_fields"_______________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_ninja_forms_fields"___________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   328][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  3114][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   444][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_social_users"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_taxonomymeta"_________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   367][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    85][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    57][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_ir"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wcwl"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wcwl_lists"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/multacco/marketifa.ir/flatsome/" ===========> "C:/wamp64/www/company-site/"
+	SEARCH  2:"\/home\/multacco\/marketifa.ir\/flatsome\/" ======> "C:\/wamp64\/www\/company-site\/"
+	SEARCH  3:"%2Fhome%2Fmultacco%2Fmarketifa.ir%2Fflatsome%2F" => "C%3A%2Fwamp64%2Fwww%2Fcompany-site%2F"
+	SEARCH  4:"\home\multacco\marketifa.ir\flatsome" ============> "C:/wamp64/www/company-site"
+	SEARCH  5:"\\home\\multacco\\marketifa.ir\\flatsome" ========> "C:\/wamp64\/www\/company-site"
+	SEARCH  6:"%5Chome%5Cmultacco%5Cmarketifa.ir%5Cflatsome" ====> "C%3A%2Fwamp64%2Fwww%2Fcompany-site"
+	SEARCH  7:"//marketifa.ir/flatsome" =========================> "//localhost/company-site"
+	SEARCH  8:"\/\/marketifa.ir\/flatsome" ======================> "\/\/localhost\/company-site"
+	SEARCH  9:"%2F%2Fmarketifa.ir%2Fflatsome" ===================> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 10:"//www.marketifa.ir/flatsome" =====================> "//localhost/company-site"
+	SEARCH 11:"\/\/www.marketifa.ir\/flatsome" ==================> "\/\/localhost\/company-site"
+	SEARCH 12:"%2F%2Fwww.marketifa.ir%2Fflatsome" ===============> "%2F%2Flocalhost%2Fcompany-site"
+	SEARCH 13:"https://localhost/company-site" ==================> "http://localhost/company-site"
+	SEARCH 14:"https:\/\/localhost\/company-site" ===============> "http:\/\/localhost\/company-site"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcompany-site" ==========> "http%3A%2F%2Flocalhost%2Fcompany-site"
+--------------------------------------
+SCANNED:	Tables:41 	|	 Rows:5060 	|	 Cells:31518 
+UPDATED:	Tables:3 	|	 Rows:254 	|	 Cells:258 
+ERRORS:		0 
+RUNTIME:	0.684600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'soheil_company_site_test' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""wordpress_company""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:49:10 - RUNTIME: 0.7925 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
